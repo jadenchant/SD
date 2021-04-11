@@ -1,0 +1,3 @@
+CQ1:
+  I expected the size of b2p to be a size of 16 instead of 8 due to the virtual function
+  taking up 8 bytes of memory in the original derived class.

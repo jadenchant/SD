@@ -1,0 +1,7 @@
+CQ1:
+    An array of objects might want to be changed to a different size at a later date.
+    User input.
+CQ2:
+    The array would just override the other array and not account for the space.
+CQ3:
+    As long as it is a global array pointer or it is passed as a parameter it works.

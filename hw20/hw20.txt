@@ -1,0 +1,4 @@
+CQ1:
+  These classes need copy constructors and assignment operators, otherwise there would be
+  memory allocation errors due to fact that the super class does not prevent these errors.
+  The errors do not dissapear due to a super class.

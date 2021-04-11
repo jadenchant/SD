@@ -1,0 +1,3 @@
+CQ1:
+error: cannot declare variable ‘n1’ to be of abstract type ‘Nachos’
+   Nachos n1(false);

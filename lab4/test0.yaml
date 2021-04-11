@@ -1,0 +1,83 @@
+- View:
+    style:
+      width: 100%
+      height: 100%
+      backgroundColor: '#b5b5b5'
+    children:
+      - View:
+          style:
+            width: 100%
+            height: 25%
+            marginTop: 5%
+            justifyContent: center
+            backgroundColor: '#2e2e2e'
+          children:
+            - Text:
+                style:
+                  fontSize: 40
+                  fontWeight: bold
+                  color: black
+                  textShadowOffset: {width: -1, height: 1}
+                  textShadowColor: 'rgba(255, 255, 255, 0.75)'
+                  textShadowRadius: 10
+                  textAlign: center
+                  alignSelf: center
+                index: 20
+      - View: 
+          style:
+            width: 100%
+            height: 28%
+            marginTop: 7
+            padding: 3%
+            backgroundColor: '#dadad9'
+          children:
+            - Text:
+                style:
+                  fontSize: 20
+                  color: black
+                index: 58
+      - View: 
+          style:
+            width: 100%
+            height: 40%
+            marginTop: 20
+            flexDirection: row
+            justifyContent: center
+            backgroundColor: transparent
+          children:
+            - Button:
+                id: option1
+                style:
+                  width: 40%
+                  height: 40%
+                  borderRadius: 5%
+                  marginRight: 4%
+                  justifyContent: center
+                  backgroundColor: '#dadad9'
+                on_touch:
+                  backgroundColor: '#e8e8e8'
+                children:
+                  - Text:
+                      style:
+                        fontSize: 37
+                        fontWeight: 500
+                        textAlign: center
+                      index: 2
+            - Button:
+                id: option2
+                style:
+                  width: 40%
+                  height: 40%
+                  borderRadius: 5%
+                  marginLeft: 4%
+                  justifyContent: center
+                  backgroundColor: '#dadad9'
+                on_touch:
+                  backgroundColor: '#e8e8e8'
+                children:
+                  - Text:
+                      style:
+                        fontSize: 37
+                        fontWeight: 500
+                        textAlign: center
+                      index: 11

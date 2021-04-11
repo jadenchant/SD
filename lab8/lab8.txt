@@ -1,0 +1,45 @@
+Part A:
+  This is making w what ever the type of z is.
+  I made the w into a const char array and printed it out.
+  This could be very useful when using user input when you don't know what type the user is going to give.
+  The reference auto is able to manipulate what ever the type of z is. It can change it to be what ever it wants.
+
+Part B:
+  This is defining an array and filling it at the same time. It is a decalration and a filling statement.
+  The other for loop does the exact same thing. This is like some of the for loops in python and other newer languages where the for loop is symplified.
+  This is called a for each loop.
+  The for each loop that assignes x to 19 does not cause any change to the original array.
+  The reference for each loop changes every value in the array to a 19 because the x value is a reference.
+  
+  A ranged based loop does everything in the loop for each item in a const array or a dynamically allocated array. 
+  First you set a variable : to the array and then in the for loop, everything will happen for each item in the array.
+
+Part C:
+  This new array is like an arraylist in the language Java. It can increase in size and decrease in size by itself with no explicit memory allocation.
+  For my example, I just made the vector a double vector instead of an int vector.
+  The for loop is doing the same thing as in the previous part of this lab and the size is just returning the size of the vector.
+  
+  The push_back() adds a value to the end of the vector.
+  The erase() removes a value at a specific index.
+  The insert() adds a value at a specific index.
+  The clear() removes all of the values in a vector.
+
+Part D:
+  The string class handels memory allocation for char arrays and has many fucntions like operator[] and size().
+  I changed the string to what's up and then printed out sup from the words in the stirng.
+  The direction of the arrow sign does not matter, to just is an easier way to print out a combination of strings.
+
+Part E:
+  The map connects different data to each other, like a string and an int or double. This can be useful for finding data without looping through every data item. It is a way of naming
+  and connection data items in an array.
+  I just added items to the already given map.
+
+  The for each loop is going through every item in the map and printing out the first set (name) and the second set (price).
+  The vector funtions work almost the same way as the map functions.
+
+Part F:
+  The num[t] and dict[t] add the number and definition to each of the maps that have been defined previously.
+  This is printing out the information relating to the aardvark. The for each loop is printing all ofthe number data relating to each term.
+
+map
+keys and values

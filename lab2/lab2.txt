@@ -1,0 +1,9 @@
+Exercise 13:
+    The client creates a request to the server. 
+    The server creates a response after reading the request and filling it. The server then deletes the file for the request.
+    The client then reads the response and then may request again. It then deletes the response file.
+
+Exercise 14:
+    The text_adventure works by using one char in the global mem to store what the user chooses. It also stores the options of what the user chooses.
+    It only does that for the user chosen option and saves the global mem space.
+    The state is the option number that the user chooses. It stores it at global mem index 20.

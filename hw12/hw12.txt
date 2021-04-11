@@ -1,0 +1,13 @@
+CQ1:
+    More than 100,000,000 ints which is 400,000,000 bytes.
+    Probably more.
+
+CQ2:
+    The second pointer p1 describes the pointer and how it works to
+    define the int array and how it points to the values at the points.
+
+CQ swap_ptr.cpp:
+    I can still use p0 to access the memory of that array, that has had its values
+    swaped with p1.
+    I can use p1[0].
+    If I print out the value of p1[1] it was the old value of p0[1].

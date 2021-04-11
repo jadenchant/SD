@@ -1,0 +1,45 @@
+- View:
+    style:
+      width: 100%
+      height: 100%
+      backgroundColor: '#b5b5b5'
+    children:
+      - View: 
+          style:
+            width: 100%
+            height: 30%
+            marginTop: 7
+            padding: 2%
+            backgroundColor: '#dadad9'
+          children:
+            - Text:
+                style:
+                  fontSize: 20
+                  color: black
+                index: 28
+      - View: 
+          style:
+            width: 100%
+            height: 40%
+            marginTop: 20
+            flexDirection: row
+            justifyContent: center
+            backgroundColor: transparent
+          children:
+            - Button:
+                id: restart
+                style:
+                  width: 40%
+                  height: 40%
+                  borderRadius: 5%
+                  justifyContent: center
+                  backgroundColor: '#dadad9'
+                on_touch:
+                  backgroundColor: '#e8e8e8'
+                children:
+                  - Text:
+                      style:
+                        fontSize: 37
+                        fontWeight: 500
+                        textAlign: center
+                      index: 20

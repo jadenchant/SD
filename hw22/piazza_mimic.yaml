@@ -1,0 +1,43 @@
+- View:
+    style:
+      width: 100%
+      height: 100%
+      backgroundColor: '#eeeeee'
+    children:
+      - View:
+          style:
+            width: 100%
+            height: 35
+            backgroundColor: '#2278b6'
+            alignContent: center
+          children:
+            - Text:
+                style:
+                  color: white
+                  fontSize: 20
+                  marginLeft: 25
+                index: 0
+      - View:
+          style:
+            width: 100%
+            height: 20
+            backgroundColor: rgb(199, 198, 198)
+      - View:
+          style:
+            width: 100%
+            height: 20
+            backgroundColor: rgb(199, 198, 198)
+      - ScrollView:
+          style:
+            width: 25%
+            height: 1000
+            marginTop: 10
+            backgroundColor: grey
+      - ScrollView:
+          style:
+            width: 74%
+            height: 700
+            position: absolute
+            bottom: 0
+            right: 0
+            backgroundColor: grey

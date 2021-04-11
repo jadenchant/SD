@@ -1,0 +1,8 @@
+CQ1:
+    b[3] would indicate memory @512. It would take up 4 bytes.
+CQ2:
+    c[2] would indicate memory @804. It would take up 2 bytes.
+CQ3:
+    @536
+CQ4:
+    Using an if statement if the pointer goes to zero (false) then perform some function.

@@ -1,0 +1,3 @@
+CQ1:
+    This happens because we are overriding the null byte and it causes it to malfunction and print until the end
+    and not until the first null byte because it isn't there.

@@ -1,0 +1,27 @@
+2. Height of 3
+3. None, its a trick question
+4. 4 leaf nodes
+6. Inserts a child if there is a null pointer, adds the address of the left and
+   right pointer to the parent, or it goes to the correct branch.
+8. 15 countries: Australia. Belgium, Canada, China, Denmark, Finland, Ghana, Iceland, India, Iran, Liberia, Mexico, Pakistan, Qatar, Uganda
+  a. Depth of 3
+  b. Australia, China, Ghana, Iceland, Mexico, Uganda, Denmark, Belgium
+  c. Pakistan
+  d. It would need to recursivly search for the leftmost end of the tree and add the pointer to the parent above it.
+     It would also have to search for the next spot to put another node.
+  e. In order to visit every node on a binary tree, it would need to be a recursive function that is a pre-order, in-order, or post-order traversal.
+     The recursion would have to check to see if it is at a leaf or if it is at a root in order to prevent errors.
+  f. To search for an item, the algorithm could use a binary tree search that goes either left or right from a root. 
+10. (current * 2) + 1
+11. (current * 2) + 2
+12. current % 2 + (current / 2) - 1
+13. I would have to add in the functionality that is above. Finding the correct index and putting and getting the correct
+    information in the right order.
+15. 5, 3, 0, 4, 5, 8, 10, 9, 100
+17. 0, 5, 4, 3, 9, 100, 8, 5
+19. 0, 3, 4, 5, 5, 8, 9, 10, 100
+21.
+   b. Not possible due to the fact that one starts at the root and the other starts at the leftmost leaf
+   c. First need to check if it is post order and in order because that is the only combination that works
+      The next step would be to check for all the same numbers. Then you would have to go through every combination
+      to see if there is a combination that suits both of them.

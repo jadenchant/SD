@@ -1,0 +1,5 @@
+CQ1:
+  It would be left to right because order matters in subtraction.
+
+CQ2:
+  I got the same error. double free. Core dumped.

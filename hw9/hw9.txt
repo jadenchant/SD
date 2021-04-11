@@ -1,0 +1,50 @@
+CQ1: 
+    c == 100
+    d == 104
+
+CQ2:
+    One use is to know excactly where the memory is stored and using that for
+    large scale application of software like a large application.
+    Ex:
+        Name stored on a device.
+        #include <string>
+        string getName(string *nameLocation)
+    
+    Another use is to store objects in a specific location in the memory.
+    Ex:
+        Sorry I don't know how to apply this to objects, because we have not talked
+        about object oriented programing.
+    
+    One final use would be save memory space on a application.
+    Ex:
+        instead of calling a function and doing something to a variable one at a time,
+        you could use pointers to manipulate multiple variables while doing another function.
+        int indexOfKeyword(int *index, string keyword)
+
+CQ3:
+    One use of a reference is to change an array while you are adding them up or something.
+    Ex:
+        int arrayAdditionAndStuff(int &arr[]) {
+            int sum = 0;
+            for(int i = 0; i < sizeof(arr); ++i) {
+                sum += arr[i];
+                arr[i] -= 1;
+            }
+        }
+
+    Another use for a reference is to an object's instance variable.
+    Ex:
+        I also have no idea how to do this one without knowing about c++ objects
+    
+    One final use for references is to avoid making new variables in functions when you are going
+    to change them anyways by either a return statement or a void function.
+    Ex:
+        void toUpperCase(char &c) {
+            c -= 32;
+        }
+
+CQ4:
+    That expression will create a reference and then call that reference and return its value.
+    It does not create an address, it just takes the value and returns it like a regular call.
+    They are calling a previously initialized variable and returning that value which could be used
+    for direct manipulation without calling the * in a function.

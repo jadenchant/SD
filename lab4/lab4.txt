@@ -1,0 +1,134 @@
+Exersice 1:
+      - View:
+          style:
+            backgroundColor: aqua
+            width: 200
+            borderRadius: 15
+            marginBottom: 5
+            marginLeft: 50
+          children:
+            - Text: # message
+                index: 15
+                style:
+                  color: black
+                  fontSize: 20
+                  marginLeft: 10
+            - Text: # author
+                index: 10
+                style:
+                  color: green
+                  fontSize: 15
+                  position: absolute
+                  right: 10
+                  bottom: 0
+            - Text:  #time
+                index: 1
+                style:
+                  color: gray
+                  fontSize: 10
+                  marginLeft: 10
+                  bottom: 0
+
+Exersice 2:
+
+mem:
+~12:48 pm\0olaf\0test message\0~~~~~~~~~~~~~~~~~~~~~~~~
+
+- ScrollView:
+    style:
+      width: 100%
+      backgroundColor: '#eeeeef'
+    children:
+      - View:
+          style:
+            width: 50%
+            height: 200
+            backgroundColor: red
+          children:
+            - Button:
+               style:
+                 width: 100%
+                 height: 50
+                 marginTop: 25%
+                 alignItems: center
+                 borderRadius: 25
+                 backgroundColor: blue
+               on_touch:
+                 backgroundColor: green
+               children:
+                 - Text:
+                     style:
+                       fontSize: 30
+                       color: black
+                       alignSelf: center
+                     index: 20
+      - View: 
+          style:
+            width: 55%
+            height: 200
+            backgroundColor: yellow
+          children:
+            - Button:
+               style:
+                 width: 100%
+                 height: 50
+                 marginTop: 25%
+                 alignItems: center
+                 alignContents: center
+                 borderRadius: 25
+                 backgroundColor: blue
+               on_touch:
+                 backgroundColor: pink
+                 width: 50%
+                 position: absolute
+                 right: 25%
+               children:
+                 - Text:
+                     style:
+                       fontSize: 30
+                       color: brown
+                     index: 10
+      - View:
+          style:
+            width: 60%
+            height: 200
+            backgroundColor: orange
+      - View:
+          style:
+            width: 65%
+            height: 200
+            backgroundColor: green
+      - View:
+          style:
+            width: 70%
+            height: 200
+            backgroundColor: purple
+      - View:
+          style:
+            width: 75%
+            height: 200
+            backgroundColor: blue
+
+Exersice 3:
+
+mem:
+Pick 1\0red\0green\0blue\0violet\0pink\0~1
+
+  - Text:
+      style:
+        color: black
+      index: 0
+  - Picker:
+      style:
+        width: 200
+      index: [7, 11, 17, 22, 29]
+      indexPos: 35
+
+Exersice 8/9:
+  The out.yaml is a file that is a copy of the yaml that
+  is used on the page when it is loaded.
+
+Exersice 10:
+  This cached_input takes what was on the browser side, including the global mem,
+  and created the file to read in screens.cpp (the a.out file).
+

@@ -1,0 +1,16 @@
+CQ1:
+  If it doesn't use pointers, then it doesn't have to deallocate memory. 
+  If it is an array, it needs to deallocate the memory 2 times with a copy constructor.
+
+CQ2:
+  It is just a referance that directs to the object and does not acctually create a new object.
+
+CQ3:
+  It would try to make another object instead of constructing the one that it was intended to.
+  It would create and endless loop of creating objects and trying to construct them.
+
+CQ4:
+  It gets called once at the very end of the program in int main().
+
+CQ5:
+  Yes, only if the size is greater than 0.
